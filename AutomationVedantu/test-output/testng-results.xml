@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33517" started-at="2020-10-30T16:52:22Z" finished-at="2020-10-30T16:52:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33517" started-at="2020-10-30T16:52:22Z" finished-at="2020-10-30T16:52:56Z">
+      <class name="com.automation.vedantu.qa.test.AssignmentVed">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.automation.vedantu.qa.test.AssignmentVed@13805618]" name="initialize" is-config="true" duration-ms="7726" started-at="2020-10-30T22:22:22Z" finished-at="2020-10-30T22:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="TestTalky()[pri:0, instance:com.automation.vedantu.qa.test.AssignmentVed@13805618]" name="TestTalky" duration-ms="25125" started-at="2020-10-30T22:22:30Z" finished-at="2020-10-30T22:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTalky -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.automation.vedantu.qa.test.AssignmentVed@13805618]" name="teardown" is-config="true" duration-ms="648" started-at="2020-10-30T22:22:55Z" finished-at="2020-10-30T22:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.vedantu.qa.test.AssignmentVed -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

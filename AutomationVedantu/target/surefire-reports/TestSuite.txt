@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 2.859 sec <<< FAILURE!
+initialize(com.automation.smallcase.qa.test.LoginPageTest)  Time elapsed: 2.57 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable must exist: C:\Users\Anurag Bharti\eclipse-workspace\AutomationSmallcasedrivers\chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:282)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:154)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:37)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:222)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:405)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:119)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at com.automation.smallcase.qa.base.BasePage.initializeDriver(BasePage.java:31)
+	at com.automation.smallcase.qa.test.LoginPageTest.initialize(LoginPageTest.java:21)
+

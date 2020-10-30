@@ -1,0 +1,4 @@
+com\automation\smallcase\qa\base\BasePage.class
+com\automation\smallcase\qa\pages\LandingPage.class
+com\automation\smallcase\qa\pages\LoginPage.class
+com\automation\smallcase\qa\utils\TestUtil.class
